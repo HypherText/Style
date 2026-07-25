@@ -1,0 +1,21 @@
+{
+  "name": "hyphertext/style",
+  "description": "Style guide for HypherText",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "HypherText\\Style\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mafrans",
+      "email": "malte.kluft@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.95"
+  }
+}
