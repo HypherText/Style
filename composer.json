@@ -3,7 +3,7 @@
   "description": "Style guide for HypherText",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "autoload": {
     "psr-4": {
       "HypherText\\Style\\": "src/"
