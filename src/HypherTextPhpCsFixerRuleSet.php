@@ -1,22 +1,19 @@
-<?
+<?declare(strict_types=1);
+
 namespace HypherText\Style;
 
 use PhpCsFixer\RuleSet\AbstractRuleSetDefinition;
 
-final class HypherTextPhpCsFixerRuleSet extends AbstractRuleSetDefinition
-{
-    public function getName(): string
-    {
+final class HypherTextPhpCsFixerRuleSet extends AbstractRuleSetDefinition {
+    public function getName(): string {
         return "@HypherText/Style";
     }
 
-    public function getDescription(): string
-    {
+    public function getDescription(): string {
         return "Style rules for HypherText projects.";
     }
 
-    public function getRules(): array
-    {
+    public function getRules(): array {
         return [
             "@PhpCsFixer" => true,
             "@PhpCsFixer:risky" => true,
@@ -57,7 +54,6 @@ final class HypherTextPhpCsFixerRuleSet extends AbstractRuleSetDefinition
             "use_arrow_functions" => true,
             "void_return" => ["fix_lambda" => false],
             "no_unused_imports" => false,
-            "blank_lines_before_namespace" => ["min_line_breaks" => 1, "max_line_breaks" => 1],
             "assign_null_coalescing_to_coalesce_equal" => true,
             "no_useless_concat_operator" => false,
             "ternary_to_null_coalescing" => true,
@@ -68,6 +64,6 @@ final class HypherTextPhpCsFixerRuleSet extends AbstractRuleSetDefinition
             "single_quote" => false,
             "blank_line_before_statement" => false,
             "blank_line_between_import_groups" => false,
-         ];
+        ];
     }
 }
