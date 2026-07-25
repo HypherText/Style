@@ -8,12 +8,12 @@ final class HypherTextPhpCsFixerRuleSet extends AbstractRuleSetDefinition
 {
     public function getName(): string
     {
-        return "@HypherText";
+        return "@HypherText/Style";
     }
 
     public function getDescription(): string
     {
-        return "Style rules for HypherText projects (short tags, camelCase, colon syntax, etc.).";
+        return "Style rules for HypherText projects.";
     }
 
     public function getRules(): array
