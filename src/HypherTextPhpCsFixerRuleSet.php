@@ -1,4 +1,4 @@
-<?declare(strict_types=1);
+<? declare(strict_types=1);
 
 namespace HypherText\Style;
 
@@ -64,6 +64,11 @@ final class HypherTextPhpCsFixerRuleSet extends AbstractRuleSetDefinition {
             "single_quote" => false,
             "blank_line_before_statement" => false,
             "blank_line_between_import_groups" => false,
+            "single_space_around_construct" => [
+                "constructs_followed_by_a_single_space" => [
+                    'abstract', 'as', 'attribute', 'break', 'case', 'catch', 'class', 'clone', 'comment', 'const', 'const_import', 'continue', 'do', 'echo', 'else', 'elseif', 'enum', 'extends', 'final', 'finally', 'for', 'foreach', 'function', 'function_import', 'global', 'goto', 'if', 'implements', 'include', 'include_once', 'instanceof', 'insteadof', 'interface', 'match', 'named_argument', 'namespace', 'new', 'open_tag_with_echo', 'php_doc', 'print', 'private', 'private_set', 'protected', 'protected_set', 'public', 'public_set', 'readonly', 'require', 'require_once', 'return', 'static', 'switch', 'throw', 'trait', 'try', 'type_colon', 'use', 'use_lambda', 'use_trait', 'var', 'while', 'yield', 'yield_from',
+                ],
+            ],
         ];
     }
 }
