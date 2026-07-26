@@ -1,0 +1,46 @@
+[formatter]
+single-quote = false
+function-brace-style = "same-line"
+method-brace-style = "same-line"
+classlike-brace-style = "same-line"
+space-before-closure-parameter-list-parenthesis = false
+empty-line-after-opening-tag = false
+separate-use-types = false
+separate-trait-use = false
+
+[linter.rules]
+literal-named-argument = { enabled = false }
+no-nested-ternary = { enabled = false }
+readable-literal = { enabled = false }
+tagged-fixme = { enabled = false }
+tagged-todo = { enabled = false }
+no-short-bool-cast = { enabled = false }
+no-inline = { enabled = false }
+psl-output = { level = "warning" }
+no-array-accumulation-in-loop = { level = "help" }
+no-parameter-shadowing = { level = "note" }
+no-side-effects-with-declarations = { enabled = false }
+require-namespace = { enabled = false }
+single-class-per-file = { enabled = false }
+prefer-while-loop = { enabled = false }
+prefer-early-continue = { enabled = false }
+prefer-pre-increment = { enabled = false }
+array-style = { level = "warning" }
+block-statement = { enabled = false }
+braced-string-interpolation = { level = "warning" }
+no-alias-function = { level = "warning" }
+no-php-tag-terminator = { enabled = false }
+cyclomatic-complexity = { level = "help" }
+excessive-parameter-list = { level = "help" }
+kan-defect = { level = "help" }
+too-many-enum-cases = { level = "help" }
+too-many-methods = { level = "help" }
+too-many-properties = { level = "help" }
+excessive-nesting = { level = "help" }
+halstead = { level = "help" }
+no-goto = { level = "warning" }
+no-else-clause = { enabled = false }
+no-empty-comment = { enabled = false }
+no-is-null = { level = "warning" }
+no-noop = { level = "warning" }
+no-short-opening-tag = { enabled = false }
